@@ -7,6 +7,7 @@ This Python script parses through log data and outputs onto an excel file all th
 ## Requirements
 - Python 3.x
 - datetime
+- pandas
 
 ## Installation
 Clone this repository and navigate into the project directory:
@@ -14,7 +15,9 @@ Clone this repository and navigate into the project directory:
 # Clone the script
 git clone https://github.com/MSF-OCB/openmrs_logs_translator.git
 cd openmrs_logs_translator
-
+```
+## Execution
+```bash
 # Paste your logs into the openmrs.logs file
 
 # Run the script to generate the excel file witht he errors
