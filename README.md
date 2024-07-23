@@ -19,5 +19,6 @@ cd openmrs_logs_translator
 
 # Run the script to generate the excel file witht he errors
 py openmrs_logs_translator.py
+
+# You will get an excel output file with the errors in each row.
 ```
-## You will get an excel output file with the errors in each row.
