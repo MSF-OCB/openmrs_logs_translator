@@ -1,3 +1,6 @@
+"""
+Script to parse openmrs log errors into an excel file.
+"""
 from datetime import datetime
 import pandas as pd
 
