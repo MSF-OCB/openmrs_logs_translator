@@ -1,5 +1,5 @@
-import pandas as pd
 from datetime import datetime
+import pandas as pd
 
 # Read the log file
 with open('openmrs.log', 'r', encoding="utf8") as file:
