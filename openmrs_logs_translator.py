@@ -10,7 +10,11 @@ with open('openmrs.log', 'r', encoding="utf8") as file:
 
 # Separate ERROR lines, excluding specific patterns
 error_lines = [line.strip() for line in lines if line.startswith('ERROR') and not (
-    'ERROR - OpenElis' in line or 'ERROR - TimerSchedulerTask' in line or 'ERROR - ModuleFactory' in line or 'ERROR - BaseRestController' in line or 'ERROR - Bahmni' in line)]
+    'ERROR - OpenElis' in line or 
+    'ERROR - TimerSchedulerTask' in line or 
+    'ERROR - ModuleFactory' in line or 
+    'ERROR - BaseRestController' in line or 
+    'ERROR - Bahmni' in line)]
 
 # Create dataframes
 # df_info = pd.DataFrame(info_lines, columns=['Log'])
